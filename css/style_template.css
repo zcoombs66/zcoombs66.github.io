@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    margin: 0; 
+    font-size: 1rem;
+    background-color: lightgray;
+   
+}
+
+
+
+/* Nav Styles */
+nav {
+    display: flex; 
+    
+    background-color: #1E1D22;
+    padding: 5px;
+    border-bottom: 2px solid;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    color: silver;
+    
+    
+    
+}
+
+nav p, nav a {
+    margin: 0;
+}
+
+ nav a {
+
+    text-decoration: none;
+    
+      
+}
+nav a:visited {
+    color: lightgray;
+}
+
+/* nav a:hover {} */
+
+/* Footer Styles */
+footer {
+    display: flex; 
+    /* background-color: #1E1D22; */
+    background-color: #414C5E;
+    padding: 5px;
+    border-top: 2px solid;
+    justify-content: center;
+    /* bottom: 0%; */
+    /* position: sticky; */
+    color: silver;
+    
+    
+}
+
+footer a {
+
+    
+    text-decoration: none;
+    
+} 
+
+footer a:visited {
+    color: lightgray;
+}
+
+
+/* Splash Section */
+
+
+.splash {
+
+    display: block;
+    
+}
+
+.splash h1 {
+    margin-top: 0px;
+    
+    text-align: center;
+    font-family: 'Baskervville SC';
+    color: #1E1D22;
+    
+    
+}
+
+.splash img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 5%;
+}
+
+.splash p {
+
+    text-align: center;
+    font-family: 'Baskervville SC';
+    
+    
+}
+
+/* Horizontal Rules */
+hr {
+    border: 1.5px solid #1E1D22;
+    margin: 15px;
+}
+
+/* Sections */
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.flex-center {
+    
+}
+
+/* Section Headings */
+section h2 {
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+    color: #1E1D22;
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 15px;
+    
+    
+}
+
+/* link styles */
+section a {
+
+    color: #1E1D22;
+    text-decoration: none;
+}
+
+section a:hover {
+   color:brown
+}
+
+section a:visited {
+    color: darkslateblue;
+}
+
+.education {
+    margin: 5px;
+    max-width: 400px;
+    
+}
+
+/* List Styles */
+ul {
+    margin: 5px;
+    
+}
+
+dl {
+    display: grid;
+    margin: 5px;
+    
+}
+dl dt{
+
+    font-style: italic;
+
+}
+dl dd{
+
+    margin-bottom: 5px;
+}
+
+/* Project Section */
+.three-col {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 5px;
+
+}
+
+.card {
+
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 8px 16px 32px 0 rgba(0,0,0,0.2);
+  }
+
+/* .card::after{
+
+
+
+} */
+
+.card img {
+
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3 {
+    color: #637996;
+}
+
+/* Contact Page Styles */
+.one-col {
+
+    display: grid;
+    grid-template-columns: 250px;
+    justify-content: center;
+    
+    
+
+}
+
+form {
+    margin-bottom: 50px;
+    
+}
+
+form input, form textarea {
+
+    margin: -10px 0;
+
+    
+}
+
+/* form input:focus, form textarea:focus {
+
+    
+} */
+
+form button {
+
+    margin: 20px 0 0 0;
+
+}
+
+/* form button:hover {} */
+
+.center {
+    text-align: center;
+}
+
+
